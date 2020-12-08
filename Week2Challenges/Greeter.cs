@@ -22,19 +22,19 @@ namespace Week2Challenges
         {
             if (DateTime.Now.Hour >= 6 && DateTime.Now.Hour < 12)
             {
-                Console.WriteLine("Good morning, " + name);
+                Console.WriteLine("Good morning " + name);
             }
             else if (DateTime.Now.Hour >= 12 && DateTime.Now.Hour < 18)
             {
-                Console.WriteLine("Good afternoon, " + name);
+                Console.WriteLine("Good afternoon " + name);
             }
             else if (DateTime.Now.Hour >= 16 && DateTime.Now.Hour < 20)
             {
-                Console.WriteLine("Good evening, " + name);
+                Console.WriteLine("Good evening " + name);
             }
             else
             {
-                Console.WriteLine("Goodnight, " + name);
+                Console.WriteLine("Goodnight " + name);
             }
         }
 
